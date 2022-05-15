@@ -2,10 +2,9 @@
 
 ##### Author: Spencer Hadel
 ***
-#### Business Problem:
-
-In order to help a new real estate company in King County, we need to analyze past house sales data in the region and create a linear regression model which can help the company better understand what factors contribute to price of a given home. We will import over 20 thousand data points from recent sales in the King County area, and proceed to clean, preprocess, and model the information present in this dataset in order to inform the new company on how to appropriately assess the value of a home when helping a client buy or sell a home.
 ## Overview
+
+In order to help a new real estate company in King County, we will use analyis of recent house sales data to inform  decisions on how to accurately assess the value of a given property for future buyers and sellers. Using key points of data from other house sales, we will help the new company utilize a more data-driven approach than competitors. With the help of this analysis, the company will be able to determine what features of a property have the most statistically significant impact on it's value, and what steps can be taken going forward to accurately price houses in the area.
 
 ## Data
 
@@ -14,7 +13,11 @@ In order to help a new real estate company in King County, we need to analyze pa
 
 
 ## Results
+words
 
+![](./images/avg_prof_by_month.png)
+
+words
 
 ## Conclusion
 
