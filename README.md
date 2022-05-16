@@ -73,7 +73,7 @@ Additionally, early phases of the analysis show some correlation of price vs loc
 All in all, the model is a decent start to assess house cost, and could be used by the new real estate company to develop a baseling understanding. With additional reseaerch into more particulars of the data, and perhaps another investigation into houses based solely on location, a new analysis could create an even more precise findings to bettern inform the company's decisions.
 
 ## More Information
-The full analysis can be found in three Jupyter Notebooks: The [Data Cleaning](./kc_data_cleaning.ipynb), [Exploring and Preprocessing](./kc_preprocessing_exploring.ipynb), and [Modeling](./kc_data_modeling.ipynb) phases. Further business conclusions can be found in the [presentation](./______________________.pdf).
+The full analysis can be found in three Jupyter Notebooks: The [Data Cleaning](./kc_data_cleaning.ipynb), [Exploring and Preprocessing](./kc_preprocessing_exploring.ipynb), and [Modeling](./kc_data_modeling.ipynb) phases. Further business conclusions can be found in the [presentation](./kingCounty_pres.pdf).
 
 ## Repository Structure
 
@@ -81,8 +81,8 @@ The full analysis can be found in three Jupyter Notebooks: The [Data Cleaning](.
 ├── data
 ├── img
 ├── README.md
-├── _____________.pdf
 ├── kc_data_cleaning.ipynb
 ├── kc_data_modeling.ipynb
 └── kc_preprocessing_exploring.ipynb
+└── kingCounty_pres.pdf
 ```
