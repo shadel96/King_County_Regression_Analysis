@@ -53,24 +53,30 @@ This shows us that most houses in King County are valued below $1 million. Addit
 ![](./img/price_v_view.png)
 ![](./img/price_v_bedrooms.png)
 ![](./img/price_v_bathrooms.png)
+![](./img/price_v_waterfront.png)
 
+Finally, we successfully created a model which can correctly predict house sale prices based on this data with about 66% accuracy. This makes it a fantastic baseline for the new company's incentive to create a more data driven approach to its sales. The model works using the following information:
 
+![](./img/model_coef.png)
 
+This breaks down how the model utilizes each piece of information in the data. The intercept score indicates that the model assumes a baseline price for each house to be $976,799 (which holds true to our observation of price distribution of houses in King County), and the model adds or subtracts value from the data per unit of each feature listed by the number alongside it. These numbers are not to be interpreted as directly correlating with house value, but rather indicate the inner workinds of the final predictive linear regression model. 
 
 ## Conclusion
-words
+The reality is that there is a very broad range of factors that can influence any individual house sale. That being said, there are a multitude of ways we could explore futher. Features like rating, view, and condition could use more exploration, since they are based on arbitrary human concepts. Features like whether or not a house was renovated, or even when it was renovated, also don't necessarily hold value if the type of renovations remain unknown.
+
+All in all, the model is a decent start to assess house cost, and could be used by the new real estate company to develop a baseling understanding. With additional reseaerch into more particulars of the data, and perhaps another investigation into houses based solely on location, a new analysis could create an even more precise findings to bettern inform the company's decisions.
 
 ## More Information
-The full analysis can be found in three Jupyter Notebooks: [Jupyter Notebook](./________________.ipynb). Further business conclusions can be found in the [presentation](./______________________.pdf).
+The full analysis can be found in three Jupyter Notebooks: The [Data Cleaning](./kc_data_cleaning.ipynb), [Exploring and Preprocessing](./kc_preprocessing_exploring.ipynb), and [Modeling](./kc_data_modeling.ipynb) phases. Further business conclusions can be found in the [presentation](./______________________.pdf).
 
 ## Repository Structure
 
 ```
 ├── data
-├── images
+├── img
 ├── README.md
 ├── _____________.pdf
-├── _____________.ipynb
-├── _____________.ipynb
-└── _______________.ipynb
+├── kc_data_cleaning.ipynb
+├── kc_data_modeling.ipynb
+└── kc_preprocessing_exploring.ipynb
 ```
