@@ -66,6 +66,10 @@ This breaks down how the model utilizes each piece of information in the data. T
 ## Conclusion
 The reality is that there is a very broad range of factors that can influence any individual house sale. That being said, there are a multitude of ways we could explore futher. Features like rating, view, and condition could use more exploration, since they are based on arbitrary human concepts. Features like whether or not a house was renovated, or even when it was renovated, also don't necessarily hold value if the type of renovations remain unknown.
 
+Additionally, early phases of the analysis show some correlation of price vs location, which deserves further investigation along with data on the King County area, such as highway locations, points of interest, and the economic status of neighborhoods.
+
+![](./img/price_v_loc.png)
+
 All in all, the model is a decent start to assess house cost, and could be used by the new real estate company to develop a baseling understanding. With additional reseaerch into more particulars of the data, and perhaps another investigation into houses based solely on location, a new analysis could create an even more precise findings to bettern inform the company's decisions.
 
 ## More Information
