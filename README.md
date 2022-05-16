@@ -43,21 +43,19 @@ Next, it preprocesses the data, including normalizing the data so that the model
 Finally, the analysis creates multiple Linear Regression models in order to find the best fitting model. By splitting the data into training and testing sets (75% and 25% of the original dataset, respectively), the best regression model will be able to assess house value and which features add or subtract from that value, according to it's training data.
 
 ## Results
-words
+The analysis revealed a few key points about house sale prices in the area. First of all, we can see clearly what most houses in the area are priced at with a simple distribution plot.
 
-![](./images/_______.png)
+![](./img/price_distribution.png)
 
-### Visualizations
+This shows us that most houses in King County are valued below $1 million. Additionally, we can see what features have a strong correlation with house value overall, such as square footage, quality of view, number of bed and bathrooms, and whether the property is on a waterfront.
 
-![](./images/_______.png)
+![](./img/price_v_sqft_living.png)
+![](./img/price_v_view.png)
+![](./img/price_v_bedrooms.png)
+![](./img/price_v_bathrooms.png)
 
-![](./images/_______.png)
 
-![](./images/_______.png)
 
-![](./images/_______.png)
-
-![](./images/_______.png)
 
 ## Conclusion
 words
