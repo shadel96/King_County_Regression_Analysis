@@ -40,6 +40,8 @@ This anaylsis first cleans the data present in kc_house_data to remove null valu
 
 Next, it preprocesses the data, including normalizing the data so that the model can be properly trained on varying ranges of data, and dividing categorical features into useable variables.
 
+![](./img/corr_heatmap.png)
+
 Finally, the analysis creates multiple Linear Regression models in order to find the best fitting model. By splitting the data into training and testing sets (75% and 25% of the original dataset, respectively), the best regression model will be able to assess house value and which features add or subtract from that value, according to it's training data.
 
 ## Results
